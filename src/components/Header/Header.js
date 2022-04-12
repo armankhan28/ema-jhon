@@ -22,7 +22,7 @@ const Header = () => {
                 {
 
                    user ?
-                   <button onClick={handleSignOut}>Sign out</button>
+                   <button className='sign' onClick={handleSignOut}>Sign out</button>
                     :
                     <Link to="/login">Login</Link>}
             </div>
